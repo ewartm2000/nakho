@@ -25,6 +25,8 @@ header h1 {
     margin: 0;
     padding: 0;
     display: inline;
+    font-weight: bold; /* Make the text bold */
+    color: #fff; /* Make the text white */
 }
 
 header nav ul {
