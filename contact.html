@@ -8,25 +8,51 @@
 </head>
 <body>
     <header>
-        <!-- Header content -->
+        <div class="container">
+            <h1>Nakho Group</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="contact">
         <div class="container">
             <h2>Contact Nakho Group</h2>
-            <p>For inquiries and appointments, please contact us using the details below:</p>
+            <p>For inquiries or to schedule a consultation, please contact us:</p>
             <address>
                 Email: info@nakhogroup.com<br>
                 Phone: +27 123 456 789<br>
                 Address: 123 Main Street, Johannesburg, South Africa
             </address>
+            <p>You can also reach out to us via the contact form below:</p>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
     </section>
 
-    <!-- More sections for content -->
-
     <footer>
-        <!-- Footer content -->
+        <div class="container">
+            <p>&copy; 2024 Nakho Group</p>
+        </div>
     </footer>
 </body>
 </html>
