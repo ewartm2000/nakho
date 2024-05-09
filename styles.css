@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
+    color: #333; /* Main text color */
 }
 
 .container {
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #007bff; /* Blue header background */
     color: #fff;
     padding: 10px 0;
     position: fixed;
@@ -56,52 +57,32 @@ header nav ul li {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #007bff; /* Blue button background */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
-.about {
+.about,
+.services,
+.contact {
+    background-color: #fff; /* White background for content sections */
     padding: 50px 0;
+    margin-top: 100px; /* Adjusted top margin to accommodate fixed header */
 }
 
-.about p {
+.about p,
+.services p,
+.contact p {
     line-height: 1.6;
 }
 
-.services {
-    background-color: #fff;
-    padding: 50px 0;
-}
-
-.services h2 {
-    margin-bottom: 30px;
-}
-
-.services ul {
-    list-style: none;
-    padding: 0;
-}
-
-.services li {
-    margin-bottom: 10px;
-}
-
-.contact {
-    padding: 50px 0;
-}
-
-.contact address {
-    font-style: normal;
-}
-
 footer {
-    background: #333;
+    background: #007bff; /* Blue footer background */
     color: #fff;
     padding: 20px 0;
     text-align: center;
