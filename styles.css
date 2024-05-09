@@ -37,8 +37,18 @@ header nav ul li {
     text-align: center;
 }
 
-.services {
+.about,
+.services,
+.team,
+.testimonials {
     padding: 50px 0;
+}
+
+.about p,
+.services p,
+.team p,
+.testimonials p {
+    margin-bottom: 20px;
 }
 
 .services ul {
@@ -46,17 +56,23 @@ header nav ul li {
     padding: 0;
 }
 
-.about {
-    padding: 50px 0;
-}
-
-.contact {
-    padding: 50px 0;
-}
-
-.director {
-    padding: 50px 0;
+.team-member {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial blockquote {
+    font-style: italic;
 }
 
 footer {
@@ -64,7 +80,4 @@ footer {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
