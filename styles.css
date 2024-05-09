@@ -115,12 +115,6 @@ footer {
         font-size: 1em; /* Decrease font size for smaller screens */
     }
 
-    .about,
-    .services,
-    .contact {
-        padding: 30px 0; /* Adjust padding for content sections on smaller screens */
-    }
-    
     .btn {
         padding: 8px 16px; /* Adjust button padding for smaller screens */
     }
@@ -152,4 +146,10 @@ footer {
     .btn {
         padding: 4px 8px; /* Further adjust button padding for even smaller screens */
     }
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
 }
