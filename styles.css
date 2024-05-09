@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
 }
 
 .container {
@@ -13,6 +14,9 @@ header {
     background: #333;
     color: #fff;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 header h1 {
@@ -24,6 +28,7 @@ header h1 {
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 header nav ul li {
@@ -32,23 +37,50 @@ header nav ul li {
 }
 
 .hero {
-    background: #f4f4f4;
-    padding: 50px 0;
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
     text-align: center;
 }
 
-.about,
-.services,
-.team,
-.testimonials {
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.about {
     padding: 50px 0;
 }
 
-.about p,
-.services p,
-.team p,
-.testimonials p {
-    margin-bottom: 20px;
+.about p {
+    line-height: 1.6;
+}
+
+.services {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.services h2 {
+    margin-bottom: 30px;
 }
 
 .services ul {
@@ -56,28 +88,24 @@ header nav ul li {
     padding: 0;
 }
 
-.team-member {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.team-member img {
-    width: 150px;
-    border-radius: 50%;
+.services li {
     margin-bottom: 10px;
 }
 
-.testimonial {
-    margin-bottom: 30px;
+.contact {
+    padding: 50px 0;
 }
 
-.testimonial blockquote {
-    font-style: italic;
+.contact address {
+    font-style: normal;
 }
 
 footer {
     background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
